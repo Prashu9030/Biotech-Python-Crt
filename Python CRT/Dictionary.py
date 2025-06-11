@@ -1,0 +1,21 @@
+JobRole={101:'Front-End Developer',102:'Back-End Developer',103:'Full-Stack Developer'}
+print(JobRole)
+print(type(JobRole))
+print(JobRole[101])
+print(JobRole[102])
+print(JobRole[103])
+JobRole[104]='Data Scientist'
+print(JobRole)
+print(JobRole[104])
+del JobRole[101]
+print(JobRole)
+JobRole.pop(102)
+print(JobRole)
+print(len(JobRole))
+print(JobRole.keys())
+print(JobRole.values())
+print(JobRole.items())
+print(JobRole.copy())
+JobRole.update({105:'Machine Learning Engineer'})
+print(JobRole)
+print(JobRole.fromkeys([103,107], 'Unknown'))

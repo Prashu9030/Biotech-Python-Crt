@@ -1,0 +1,8 @@
+Str=input("ENter the String :")
+print(f"The User entered String : {Str}")
+print(f"Reverse of a string :",Str[::-1])
+print(f"Lower caser of a string :",Str.lower())
+print(f"Upper caser of a string :",Str.upper())
+print(f"Title caser of a string :",Str.title())
+print(f"Capitalized of a string :",Str.capitalize())
+print(f"Swapped case of a string :",Str.swapcase())

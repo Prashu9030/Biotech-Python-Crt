@@ -1,0 +1,8 @@
+User_Name=input("Enter your username: ")
+Password=input("Enter your password: ") 
+Contact_Number=input("Enter your contact number: ")
+Mail_ID=input("Enter your mail ID: ")
+print(validation(User_Name))
+print(validation(Password))
+print(validation(Contact_Number))
+print(validation(Mail_ID))
