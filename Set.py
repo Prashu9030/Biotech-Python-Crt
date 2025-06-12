@@ -1,0 +1,23 @@
+set={'python','c','c++','java','js'}
+print(set)
+print(type(set))
+set.add('php')
+set={'python','c','c++','javascript','HTML','AngulaR js'}
+print(set)
+print(type(set))
+print('python' in set)
+set.add('jython')
+print(set)
+set.add('nodejs')
+print(set)
+set.update(['pypy','iron python'])
+print(set)
+set.remove('python')
+print(set)
+set.clear()
+print(set)
+set={'python','c','c++','java','js'}
+set.discard('java')
+print(set)
+set.pop()
+print(set)
